@@ -380,14 +380,39 @@ li{
   min-width: 140px;
   min-height: 50%;
   flex: 1;
-  
-}
+ 
+  border: 2px dashed #444;
+  height: 125px;
+  text-align: center;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+  /* just for demo */
+  min-width: 612px;
+} 
 
+.topnav div{
+  background-color: yellow;
+  width: 150px;
+  height: 125px;
+  vertical-align: middle;
+  display: inline-block;  
+  line-height: 125px;
+}
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
+.topnav a:visited{
+	color:#D35FB7
+}
+
+.stretch {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0
+}
 
 
 /*MAIN BODY FORMATTING */
